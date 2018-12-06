@@ -1,5 +1,4 @@
 img {
-    
     width: 20%;
     height: 30%;
 }
@@ -34,4 +33,58 @@ section {
     padding: 20px;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+footer {
+    background: lightgrey;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+}
+
+#hobbies {
+    width: 49%;
+    height: 20%;
+    padding: 1%;
+}
+
+@media screen and (max-width: 700px) {
+
+    section {
+        background: paleturquoise;
+        margin-top: 5%;
+        padding: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    footer {
+        background: paleturquoise;
+        text-align: center;
+        height: 30px;
+        width: 100%;
+    }
+
+    nav {
+        background: paleturquoise;
+        width: 100%;
+        margin-right: 10%;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: paleturquoise;
+    }
+
+    body {
+        background-color: #333;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: 50px;
+        padding-bottom: 25px;
+        position: relative;
+    }
 }
