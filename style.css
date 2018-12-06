@@ -1,133 +1,37 @@
-body {
-    background-color: #eeee;
+img {
+    
+    width: 20%;
+    height: 30%;
 }
 
-h1 {
-    margin-left: 100px;
-    margin-top: 50px;
-    color: marblackoon;
-    font-size: 50px;
+nav {
+    background: #eee;
+    width: 100%;
+    margin-right: 10%;
 }
-
 
 ul {
-    background: darkred;
+    list-style: none;
+    float: right; 
 }
 
-img {
-    width: 280px;
-    height: 350px;
-    margin-left: 100px;
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding-bottom: 25px;
+    position: relative;
 }
 
-.card-img {
-    margin-left: 0px;
-}
-
-h2 {
-    font-family: 'Great Vibes', cursive;
-    font-size: 400px;
-    float: right;
-    margin-right: 210px;
-    margin-top: 150px;
-}
-
-.nav-item {
-    color: white;
-}
-
-#info {
-    margin-top: 300px;
-    width: 800px;
-    margin-left: 100px;
-    font-size: 20px;
-}
-
-footer {
-    text-align: center;
-    background: darkred;
-    height: 25px;
-    color: #eeee;
+nav a {
+    text-decoration: none;
+    color: blue;
 }
 
 section {
-    margin-top: 50px;
-    margin-left: 100px;
-    background-color: darkred;
-    width: 1100px;
-    height: 500px;
+    background: lightgrey;
+    margin-top: 5%;
     padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-#photo {
-    width: 400px;
-    height: 250px;
-    padding-top: 20px;
-    
-}
-
-input {
-    width: 1050px;
-}
-
-h5 {
-    font-size: 50px;
-}
-
-/* effect at width changes*/
-
-@media screen and (max-width: 900px) {
-
-   
-h2 {
-    font-Size: 200px;
-    background: darkred;
-    color: white;
-    width: 400px;
-    padding-top: 20px;
-    margin-right: 20px;
-
-}
-
-#info {
-    color: darkred;
-    margin-top: 400px;
-    width: 300px;
-    margin-left: 100px;
-    font-size: 20px;
-}
-
-section {
-    margin-top: 50px;
-    margin-left: 100px;
-    background-color: #eeee;
-   color: darkred;
-    width: 500px;
-    height: 500px;
-    padding: 20px;
-}
-
-input {
-    width: 445px;
-}
-
-h1 {
-    background: #eeee;
-    color: #eeee;
-    width: 280px;
-}
-
-#photo {
-    width: 400px;
-    height: 250px;
-    padding: 20px;  
-    border-color: darkred;
-    border-radius: 50px;
-}
-
-h5 {
-    font-size: 100px;
-}
-
-}
-
-
