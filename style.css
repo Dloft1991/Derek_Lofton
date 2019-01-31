@@ -1,17 +1,24 @@
 img {
-    width: 20%;
-    height: 30%;
+    width: 50%;
+    height: 70%;
+    margin-left: 30px;
 }
 
-nav {
-    background: #eee;
-    width: 100%;
-    margin-right: 10%;
+h1 {
+    margin-left: 5.5%;
 }
+
+#info {
+  
+    margin-right: 27%;
+    font-size: 24px;
+}
+
 
 ul {
-    list-style: none;
-    float: right; 
+   background-color: black;
+   padding: 20px;
+    
 }
 
 nav li {
@@ -20,12 +27,10 @@ nav li {
     margin-right: 50px;
     padding-bottom: 25px;
     position: relative;
+    background-color: black;
 }
 
-nav a {
-    text-decoration: none;
-    color: blue;
-}
+
 
 section {
     background: lightgrey;
@@ -35,57 +40,57 @@ section {
     margin-right: 5%;
 }
 
-footer {
-    background: lightgrey;
-    text-align: center;
-    height: 30px;
-    width: 100%;
-}
-
 #hobbies {
     width: 49%;
     height: 20%;
     padding: 1%;
 }
 
-@media screen and (max-width: 700px) {
+#master {
+    background-color: lightgrey;
+    width: 1180px;
+    height: 500px;
+    margin-left: 64px;
+    padding-top: 20px;
+}
 
-    section {
-        background: paleturquoise;
-        margin-top: 5%;
-        padding: 20px;
-        margin-left: 5%;
+@media screen and (max-width: 414px) {
+
+    img {
+        width: 50%;
+        height: 70%;
+        margin-left: 30px;
+    }
+    
+    #info {
+  
         margin-right: 5%;
+        margin-left: 10px;
+        font-size: 12px;
+        padding: 20px;
     }
 
-    footer {
-        background: paleturquoise;
-        text-align: center;
-        margin-bottom: 0%;
-        height: 30px;
+    #master {
+        background-color: lightgrey;
+        width: 414px;
+        height: 736px;
+        margin-left: 0px;
+        margin-top: -25px;
+       
+    }
+
+    h1 {
+        margin-left: 7%;
+    }
+
+    ul {
+        background-color: black;
         width: 100%;
-    }
+        padding: 20px;
+         
+     }
 
-    nav {
-        background: paleturquoise;
-        width: 100%;
-        margin-right: 10%;
-    }
-
-    nav a {
-        text-decoration: none;
-        color: paleturquoise;
-    }
-
-    body {
-        background-color: #333;
-    }
-
-    nav li {
-        display: inline-block;
-        margin-left: 2px;
-        margin-right: 50px;
-        padding-bottom: 25px;
-        position: relative;
-    }
+     body{
+         background-color: lightgrey;
+     }
 }
