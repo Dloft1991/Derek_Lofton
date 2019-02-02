@@ -4,12 +4,8 @@ img {
     margin-left: 30px;
 }
 
-h1 {
-    margin-left: 5.5%;
-}
-
 #info {
-  
+
     margin-right: 27%;
     font-size: 24px;
 }
@@ -43,7 +39,7 @@ nav li {
 }
 
 body {
-    background-color: rgb(151, 175, 212);
+    background-color: rgb(28, 101, 168);
 }
 
 section {
@@ -70,23 +66,15 @@ section {
     padding-bottom: 20px;
 }
 
-
+.container {
+   color: White;
+    width: 100%;
+    height: 300px;
+    font-size: 50%;
+}
 
 @media screen and (max-width: 414px) {
 
-    img {
-        width: 50%;
-        height: 70%;
-        margin-left: 30px;
-    }
-    
-    #info {
-  
-        margin-right: 5%;
-        margin-left: 10px;
-        font-size: 12px;
-        padding: 20px;
-    }
 
     #master {
         background-color: white;
@@ -95,23 +83,10 @@ section {
         margin-left: 0px;
         margin-top: 24px;
         
-       
     }
-
-    h1 {
-        margin-left: 7%;
-    }
-
-    ul {
-        background-color: rgb(151, 175, 212);;
-        width: 100%;
-        text-align: center;
-        padding: 0px;
-    
-     }
 
      body{
-         background-color: rgb(151, 175, 212);
+        background-color: rgb(28, 101, 168);
      }
 
      #logos {
