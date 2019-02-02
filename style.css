@@ -27,14 +27,27 @@ nav li {
     margin-right: 50px;
     padding-bottom: 25px;
     position: relative;
-    background-color: black;
+    background-color: white;
     width: 100%;
 }
 
+#logos {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.media-body {
+    
+    margin-top: 30px;
+}
 
+body {
+    background-color: rgb(151, 175, 212);
+}
 
 section {
-    background: lightgrey;
+ 
     margin-top: 5%;
     padding: 20px;
     margin-left: 5%;
@@ -48,12 +61,14 @@ section {
 }
 
 #master {
-    background-color: lightgrey;
+    background-color: white;
     width: 1180px;
-    height: 500px;
-    margin-left: 64px;
+    height: 620px;
+    margin-left: 40px;
     padding-top: 20px;
 }
+
+
 
 @media screen and (max-width: 414px) {
 
@@ -72,11 +87,12 @@ section {
     }
 
     #master {
-        background-color: lightgrey;
+        background-color: white;
         width: 414px;
         height: 736px;
         margin-left: 0px;
-        margin-top: -25px;
+        margin-top: 24px;
+        
        
     }
 
@@ -85,13 +101,27 @@ section {
     }
 
     ul {
-        background-color: black;
+        background-color: rgb(151, 175, 212);;
         width: 100%;
-        padding: 20px;
-         
+        text-align: center;
+        padding: 0px;
+    
      }
 
      body{
-         background-color: lightgrey;
+         background-color: rgb(151, 175, 212);
      }
+
+     #logos {
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .media-body {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    h5 {
+        font-size: 24px;
+    }
 }
