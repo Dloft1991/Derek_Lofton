@@ -32,7 +32,53 @@ nav li {
     height: 100px;
     margin-top: 30px;
     margin-left: 80px;
+    
 }
+#logos:hover {
+    width: 150px;
+    height: 150px;
+}
+#logos2 {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+#logos2:hover {
+    width: 150px;
+    height: 150px;
+}
+#logos3 {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+#logos3:hover {
+    width: 150px;
+    height: 150px;
+}
+#logos4 {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+#logos4:hover {
+    width: 150px;
+    height: 150px;
+}
+#logos5 {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+#logos5:hover {
+    width: 150px;
+    height: 150px;
+}
+
 .media-body {
     
     margin-top: 30px;
@@ -64,6 +110,7 @@ section {
     margin-right: 5%;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-radius: 1%;
 }
 
 .container {
@@ -71,7 +118,9 @@ section {
     width: 100%;
     height: 300px;
     font-size: 50%;
+   
 }
+
 
 @media screen and (max-width: 414px) {
 
