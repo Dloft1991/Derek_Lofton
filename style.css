@@ -37,6 +37,7 @@ nav li {
 #logos:hover {
     width: 150px;
     height: 150px;
+    transition: 2s;
 }
 #logos2 {
     width: 100px;
@@ -47,6 +48,7 @@ nav li {
 #logos2:hover {
     width: 150px;
     height: 150px;
+    transition: 2s;
 }
 #logos3 {
     width: 100px;
@@ -57,6 +59,7 @@ nav li {
 #logos3:hover {
     width: 150px;
     height: 150px;
+    transition: 2s;
 }
 #logos4 {
     width: 100px;
@@ -67,6 +70,7 @@ nav li {
 #logos4:hover {
     width: 150px;
     height: 150px;
+    transition: 2s;
 }
 #logos5 {
     width: 100px;
@@ -77,6 +81,7 @@ nav li {
 #logos5:hover {
     width: 150px;
     height: 150px;
+    transition: 2s;
 }
 
 .media-body {
@@ -121,8 +126,6 @@ section {
     margin-right: 5%;
     padding-top: 20px;
     padding-bottom: 20px;
-  
-    
 }
 
 .container {
@@ -134,9 +137,17 @@ section {
 
 .media {
     margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
 }
 
+.media:hover {
+    font-size: 17px;
+background-color: rgb(28, 101, 168);
+transition: 2s;
+color: white;
 
+}
 @media screen and (max-width: 414px) {
 
 
