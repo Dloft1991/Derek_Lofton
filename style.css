@@ -10,9 +10,9 @@ img {
     font-size: 24px;
 }
 
-
 ul {
-   background-color: black;
+   background-color: white;
+   style: none;
    padding: 20px;
     
 }
@@ -126,6 +126,8 @@ section {
     margin-right: 5%;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .container {
@@ -173,8 +175,8 @@ color: white;
      }
 
      #logos {
-        width: 50px;
-        height: 50px;
+        width: 20px;
+        height: 20px;
         margin-top: 20px;
     }
     .media-body {
@@ -191,4 +193,46 @@ color: white;
          height: 20%;
          font-size: 50%;
      }
+
+     #logos {
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+        
+    }
+    #logos:hover {
+        
+    }
+    #logos2 {
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+    }
+    #logos2:hover {
+       
+    }
+    #logos3 {
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+    }
+    #logos3:hover {
+       
+    }
+    #logos4 {
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+    }
+    #logos4:hover {
+       
+    }
+    #logos5 {
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+    }
+    #logos5:hover {
+        
+    }
 }
