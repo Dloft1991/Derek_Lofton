@@ -114,7 +114,7 @@ section {
     margin-left: 5%;
     margin-right: 5%;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   
 }
 
@@ -125,7 +125,31 @@ section {
     margin-left: 5%;
     margin-right: 5%;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#coding {
+    background-color: white;
+    /* width: 1180px;
+    height: 620px; */
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#reachMe {
+    background-color: white;
+    /* width: 1180px;
+    height: 620px; */
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 40px;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -135,8 +159,14 @@ section {
     width: 100%;
     height: 300px;
     font-size: 50%;
+    background-color: black;
+    opacity: .7;
+    padding-top: 20px;
 }
 
+.lead {
+    padding-top: 20px;
+}
 .media {
     margin-left: 50px;
     margin-right: 50px;
@@ -149,6 +179,16 @@ background-color: rgb(28, 101, 168);
 transition: 2s;
 color: white;
 
+}
+
+#linkedIN {
+    width: 400px;
+    height: 200px;
+}
+
+#gitHub {
+    width: 400px;
+    height: 200px;
 }
 @media screen and (max-width: 414px) {
 
@@ -165,6 +205,14 @@ color: white;
         background-color: white;
         width: 414px;
         height: 736px;
+        margin-left: 0px;
+        margin-top: 24px;
+        
+    }
+    #coding {
+        background-color: white;
+        width: 414px;
+        height: 1100px;
         margin-left: 0px;
         margin-top: 24px;
         
@@ -195,8 +243,8 @@ color: white;
      }
 
      #logos {
-        width: 50px;
-        height: 50px;
+        width: 150px;
+        height: 150px;
         margin-top: 50px;
         
     }
@@ -204,35 +252,47 @@ color: white;
         
     }
     #logos2 {
-        width: 50px;
-        height: 50px;
+        width: 150px;
+        height: 150px;
         margin-top: 50px;
     }
     #logos2:hover {
        
     }
     #logos3 {
-        width: 50px;
-        height: 50px;
+        width: 150px;
+        height: 150px;
         margin-top: 50px;
     }
     #logos3:hover {
        
     }
     #logos4 {
-        width: 50px;
-        height: 50px;
+        width: 150px;
+        height: 150px;
         margin-top: 50px;
     }
     #logos4:hover {
        
     }
     #logos5 {
-        width: 50px;
-        height: 50px;
+        width: 150px;
+        height: 150px;
         margin-top: 50px;
     }
     #logos5:hover {
         
+    }
+
+    #linkedIN {
+        width: 200px;
+        height: 100px;
+        margin-left: 60px;
+    }
+    
+    #gitHub {
+        width: 200px;
+        height: 100px;
+        margin-left: 60px;
     }
 }
