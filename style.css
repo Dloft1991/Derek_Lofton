@@ -209,6 +209,15 @@ color: white;
         margin-top: 24px;
         
     }
+
+    #readMe {
+        background-color: white;
+        width: 414px;
+        height: 736px;
+        margin-left: 0px;
+        margin-top: 24px;
+        
+    }
     #coding {
         background-color: white;
         width: 414px;
@@ -294,5 +303,15 @@ color: white;
         width: 200px;
         height: 100px;
         margin-left: 60px;
+    }
+
+    #linkedIN {
+        width: 200px;
+        height: 100;
+    }
+    
+    #gitHub {
+        width: 200;
+        height: 100px;
     }
 }
