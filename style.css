@@ -166,6 +166,18 @@ section {
     padding-right: 5%;
 }
 
+.resume {
+    background-color: white;
+    /* width: 1180px;
+    height: 620px; */
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .container {
    color: White;
     width: 100%;
