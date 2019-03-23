@@ -1,19 +1,37 @@
-img {
-    width: 50%;
-    height: 70%;
-    margin-left: 30px;
+
+.row {
+    margin-left: 5%;
 }
 
+.card {
+    height: 350px;
+    border-color: white;
+}
 #info {
 
     margin-right: 27%;
     font-size: 24px;
 }
 
+#phoneEmail {
+    font-size: 20px;
+    color: White;
+    
+}
+a {
+    color: white;
+}
+
+#navlink {
+    color: black;
+}
+
 ul {
    background-color: white;
    style: none;
    padding: 20px;
+   margin-left: 5%;
+   margin-right: 5%
     
 }
 
@@ -90,7 +108,7 @@ nav li {
 }
 
 body {
-    background-color: rgb(28, 101, 168);
+    background-color: rgb(235, 234, 234);
 }
 
 section {
@@ -181,11 +199,16 @@ section {
 .container {
    color: White;
     width: 100%;
-    height: 300px;
+    height: 200px;
     font-size: 50%;
     background-color: black;
     opacity: .7;
     padding-top: 20px;
+}
+
+.jumbotron {
+background-image: url("container\ image.png");
+background-size: 1500px;
 }
 
 .lead {
@@ -214,6 +237,8 @@ color: white;
     width: 400px;
     height: 200px;
 }
+
+
 @media screen and (max-width: 414px) {
 
 
@@ -251,8 +276,17 @@ color: white;
         
     }
 
+    #codingBottom {
+        background-color: white;
+        width: 414px;
+        height: 700px;
+        margin-left: -17px;
+        margin-top: 24px;
+        
+    }
+
      body{
-        background-color: rgb(28, 101, 168);
+        background-color: rgb(235, 234, 234);
      }
 
      #logos {
@@ -318,15 +352,15 @@ color: white;
     }
 
     #linkedIN {
-        width: 100px;
+        width: 200px;
         height: 100px;
-        margin-left: 60px;
+        margin-left: 30px;
     }
     
     #gitHub {
-        width: 100px;
+        width: 200px;
         height: 100px;
-        margin-left: 60px;
+        margin-left: 30px;
     }
 
   
