@@ -214,19 +214,6 @@ background-size: 1500px;
 .lead {
     padding-top: 20px;
 }
-.media {
-    margin-left: 50px;
-    margin-right: 50px;
-    text-align: center;
-}
-
-.media:hover {
-    font-size: 17px;
-background-color: rgb(28, 101, 168);
-transition: 2s;
-color: white;
-
-}
 
 #linkedIN {
     width: 400px;
