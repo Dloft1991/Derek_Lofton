@@ -225,6 +225,21 @@ background-size: 1500px;
     height: 200px;
 }
 
+@media screen and (max-width: 1000px) {
+
+    #linkedIN {
+        width: 250px;
+        height: 120x;
+        margin-left: 20px;
+    }
+    
+    #gitHub {
+        width: 270px;
+        height: 180px;
+        margin-left: 5px;
+    }
+
+}
 
 @media screen and (max-width: 414px) {
 
@@ -336,18 +351,6 @@ background-size: 1500px;
     }
     #logos5:hover {
         
-    }
-
-    #linkedIN {
-        width: 200px;
-        height: 100px;
-        margin-left: 30px;
-    }
-    
-    #gitHub {
-        width: 200px;
-        height: 100px;
-        margin-left: 30px;
     }
 
   
