@@ -252,41 +252,7 @@ background-size: 1500px;
         margin-top: 24px;
         
     }
-    #apps {
-        background-color: white;
-        width: 414px;
-        height: 736px;
-        margin-left: 5%;
-    margin-right: 5%;
-        
-    }
-
-    #readMe {
-        background-color: white;
-        width: 100%;
-        height: 736px;
-        margin-left: 0px;
-        margin-top: 24px;
-        
-    }
-    #coding {
-        background-color: white;
-        width: 414px;
-        height: 1100px;
-        margin-left: 5%;
-    margin-right: 5%;
-        
-    }
-
-    #codingBottom {
-        background-color: white;
-        width: 414px;
-        height: 700px;
-        margin-left: -17px;
-        margin-top: 24px;
-        
-    }
-
+    
      body{
         background-color: rgb(235, 234, 234);
      }
