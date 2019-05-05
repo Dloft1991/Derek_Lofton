@@ -1,3 +1,7 @@
+/* font-family: 'Crimson Text', serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Cinzel Decorative', cursive; */
+
 
 .row {
     margin-left: 5%;
@@ -16,6 +20,7 @@
 #phoneEmail {
     font-size: 20px;
     color: White;
+    font-family: 'Playfair Display SC', serif;
     
 }
 a {
@@ -26,7 +31,7 @@ a {
     color: black;
 }
 
-ul {
+#navy {
    background-color: white;
    style: none;
    padding: 20px;
@@ -36,6 +41,7 @@ ul {
 }
 
 nav li {
+    
     display: inline-block;
     margin-left: 20px;
     margin-right: 50px;
@@ -44,66 +50,46 @@ nav li {
     background-color: white;
     width: 100%;
 }
-
-#logos {
+#codingLogo {
     width: 100px;
     height: 100px;
     margin-top: 30px;
-    margin-left: 80px;
+    margin-left: 15%;
     
 }
-#logos:hover {
-    width: 150px;
-    height: 150px;
-    transition: 2s;
-}
-#logos2 {
+
+#experiencLogo {
     width: 100px;
     height: 100px;
     margin-top: 30px;
-    margin-left: 80px;
+    margin-left: 20%;
+
 }
-#logos2:hover {
-    width: 150px;
-    height: 150px;
-    transition: 2s;
+#apps {
+    background-color: white;
+    /* width: 1180px;
+    height: 620px; */
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
-#logos3 {
-    width: 100px;
-    height: 100px;
-    margin-top: 30px;
-    margin-left: 80px;
-}
-#logos3:hover {
-    width: 150px;
-    height: 150px;
-    transition: 2s;
-}
-#logos4 {
-    width: 100px;
-    height: 100px;
-    margin-top: 30px;
-    margin-left: 80px;
-}
-#logos4:hover {
-    width: 150px;
-    height: 150px;
-    transition: 2s;
-}
-#logos5 {
-    width: 100px;
-    height: 100px;
-    margin-top: 30px;
-    margin-left: 80px;
-}
-#logos5:hover {
-    width: 150px;
-    height: 150px;
-    transition: 2s;
+
+#coding {
+    background-color: white;
+    /* width: 1180px;
+    height: 620px; */
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .media-body {
-    
     margin-top: 30px;
 }
 
@@ -112,7 +98,6 @@ body {
 }
 
 section {
- 
     margin-top: 5%;
     padding: 20px;
     margin-left: 5%;
@@ -134,30 +119,6 @@ section {
     padding-top: 20px;
     padding-bottom: 40px;
   
-}
-
-#apps {
-    background-color: white;
-    /* width: 1180px;
-    height: 620px; */
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-#coding {
-    background-color: white;
-    /* width: 1180px;
-    height: 620px; */
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: .5%;
-    padding-right: 5%;
 }
 
 #codingBottom {
@@ -213,6 +174,7 @@ background-size: 1500px;
 
 .lead {
     padding-top: 20px;
+    font-family: 'Playfair Display SC', serif;
 }
 
 #linkedIN {
@@ -224,6 +186,16 @@ background-size: 1500px;
     width: 400px;
     height: 200px;
 }
+.name{
+    font-family: 'Cinzel Decorative', cursive; 
+    font-size: 70px;
+}
+h2 {
+   text-align: center;
+   font-family: 'Playfair Display SC', serif;
+}
+
+
 
 @media screen and (max-width: 1000px) {
 
