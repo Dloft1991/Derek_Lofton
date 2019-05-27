@@ -183,7 +183,13 @@ background-size: 1500px; */
     text-align: center;
     font-family: 'Playfair Display SC', serif;
 }
-
+.name{
+    font-family: 'Cinzel Decorative', cursive; 
+    font-size: 90px;
+    text-align: center;
+    padding-top: 10%;
+   
+}
 #linkedIN {
     width: 400px;
     height: 200px;
@@ -192,13 +198,6 @@ background-size: 1500px; */
 #gitHub {
     width: 400px;
     height: 200px;
-}
-.name{
-    font-family: 'Cinzel Decorative', cursive; 
-    font-size: 90px;
-    text-align: center;
-    padding-top: 10%;
-   
 }
 h2 {
    text-align: center;
@@ -226,7 +225,24 @@ h2 {
         height: 180px;
         margin-left: 5px;
     }
-
+    .lead {
+        padding-top: 30px;
+        margin-left: 35%;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 15px;
+    }
+    .name{
+        font-family: 'Cinzel Decorative', cursive; 
+        font-size: 60px;
+        margin-left: 35%;
+        padding-top: 10%;  
+    }
+    .headshot{
+        padding-top: 8%;
+        margin-left: 3%;
+        width: 300px;
+        height: 400px;
+    }
 }
 
 @media screen and (max-width: 414px) {
@@ -257,13 +273,27 @@ h2 {
     h5 {
         font-size: 24px;
     }
-
-    .container {
-        color: White;
-         width: 100%;
-         height: 20%;
-         font-size: 50%;
+    .headshot{
+        padding-top: 8%;
+        margin-left: 3%;
+        width: 300px;
+        height: 400px;
+    }
+    #container {
+        height: 50%;
+        
      }
+     .lead {
+    padding-top: 30px;
+    margin-left: 3%;
+    font-family: 'Playfair Display SC', serif;
+}
+.name{
+    font-family: 'Cinzel Decorative', cursive; 
+    font-size: 40px;
+    padding-top: 10%;
+    margin-left: 3%;
+}
 
      #logos {
         width: 150px;
