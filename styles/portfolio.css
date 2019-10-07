@@ -2,26 +2,6 @@
 font-family: 'Playfair Display SC', serif;
 font-family: 'Cinzel Decorative', cursive; */
 
-
-.row {
-    margin-left: 5%;
-}
-
-.card {
-    height: 350px;
-    border-color: white;
-}
-#info {
-    margin-right: 27%;
-    font-size: 24px;
-}
-
-#phoneEmail {
-    font-size: 20px;
-    color: White;
-    font-family: 'Playfair Display SC', serif;
-    
-}
 a {
     color: white;
     font-family: 'Playfair Display SC', serif;
@@ -50,112 +30,13 @@ nav li {
     background-color: white;
     width: 100%;
 }
-#codingLogo {
-    width: 100px;
-    height: 100px;
-    margin-top: 30px;
-    margin-left: 15%;
-    
-}
 
-#experiencLogo {
-    width: 100px;
-    height: 100px;
-    margin-top: 30px;
-    margin-left: 20%;
-
-}
-#apps {
-    background-color: white;
-    /* width: 1180px;
-    height: 620px; */
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-#coding {
-    background-color: white;
-    /* width: 1180px;
-    height: 620px; */
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.media-body {
-    margin-top: 30px;
-}
 
 body {
     background-color: rgb(235, 234, 234);
 }
 
-section {
-    margin-top: 5%;
-    padding: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
-}
 
-#hobbies {
-    width: 49%;
-    height: 20%;
-    padding: 1%;
-}
-
-#master {
-    background-color: white;
-    /* width: 1180px;
-    height: 620px; */
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 20px;
-    padding-bottom: 40px;
-  
-}
-
-#codingBottom {
-    background-color: white;
-    /* width: 1180px;
-    height: 620px; */
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-#reachMe {
-    background-color: white;
-    /* width: 1180px;
-    height: 620px; */
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.resume {
-    background-color: white;
-    /* width: 1180px;
-    height: 620px; */
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
-}
 .headshot{
     width: 300px;
     height: 400px;
@@ -172,12 +53,6 @@ section {
     padding-left: 3%;
 }
 
-/* .jumbotron { */
-/* background-image: url("container\ image.png");
-background-size: 1500px; */
-/* background-color: rgb(235, 234, 234);
-} */
-
 .lead {
     padding-top: 30px;
     text-align: center;
@@ -190,15 +65,7 @@ background-size: 1500px; */
     padding-top: 10%;
    
 }
-#linkedIN {
-    width: 400px;
-    height: 200px;
-}
 
-#gitHub {
-    width: 400px;
-    height: 200px;
-}
 h2 {
    text-align: center;
    font-family: 'Playfair Display SC', serif;
@@ -210,21 +77,9 @@ h2 {
     /* margin-left: 10%; */
 }
 
-
-
 @media screen and (max-width: 1000px) {
 
-    #linkedIN {
-        width: 250px;
-        height: 120x;
-        margin-left: 20px;
-    }
     
-    #gitHub {
-        width: 270px;
-        height: 180px;
-        margin-left: 5px;
-    }
     .lead {
         padding-top: 30px;
         margin-left: 35%;
@@ -246,33 +101,13 @@ h2 {
 }
 
 @media screen and (max-width: 414px) {
-
-
-    #master {
-        background-color: white;
-        width: 414px;
-        height: 736px;
-        margin-left: 0px;
-        margin-top: 24px;
-        
-    }
     
      body{
         background-color: rgb(235, 234, 234);
      }
 
-     #logos {
-        width: 20px;
-        height: 20px;
-        margin-top: 20px;
-    }
-    .media-body {
-        font-size: 10px;
-        margin-top: 20px;
-    }
-    h5 {
-        font-size: 24px;
-    }
+    
+    
     .headshot{
         padding-top: 8%;
         margin-left: -2%;
@@ -293,49 +128,5 @@ h2 {
     font-size: 40px;
     padding-top: 10%;
     margin-left: 3%;
-}
-
-     #logos {
-        width: 150px;
-        height: 150px;
-        margin-top: 50px;
-        
-    }
-    #logos:hover {
-        
-    }
-    #logos2 {
-        width: 150px;
-        height: 150px;
-        margin-top: 50px;
-    }
-    #logos2:hover {
-       
-    }
-    #logos3 {
-        width: 150px;
-        height: 150px;
-        margin-top: 50px;
-    }
-    #logos3:hover {
-       
-    }
-    #logos4 {
-        width: 150px;
-        height: 150px;
-        margin-top: 50px;
-    }
-    #logos4:hover {
-       
-    }
-    #logos5 {
-        width: 150px;
-        height: 150px;
-        margin-top: 50px;
-    }
-    #logos5:hover {
-        
-    }
-
-  
+} 
 }
