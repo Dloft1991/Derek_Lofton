@@ -67,14 +67,16 @@ body {
 }
 
 h2 {
-   text-align: center;
+   /* text-align: center; */
    font-family: 'Playfair Display SC', serif;
 }
 
 #projects{
     width: 300px;
     height: 200px;
-    /* margin-left: 10%; */
+}
+.section {
+    padding-left: 5%;
 }
 
 @media screen and (max-width: 1000px) {
