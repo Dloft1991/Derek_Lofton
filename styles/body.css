@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(235, 234, 234);
+}
+
+.name {
+    background-color: white;
+    text-align: center;
+    font-family: 'PT Mono', monospace;
+    font-size: 90px;
+    padding: 2%;
+}
+
+h2{
+    font-family: 'PT Mono', monospace;
+}
+p {
+    font-family: 'PT Mono', monospace;
+}

@@ -1,0 +1,32 @@
+#linkedIN {
+width: 70px;
+height: 70px;
+}
+
+#gitHub {
+    width: 50px;
+    height: 50px;
+}
+
+#email {
+    width: 70px;
+    height: 70px;
+}
+
+.links {
+    margin-left: 40%;
+}
+
+@media screen and (max-width: 736px) {
+
+    .links {
+        margin-left: 35%;
+      }
+}
+
+@media screen and (max-width: 414px) {
+
+    .links {
+        margin-left: 25%;
+      }
+}
