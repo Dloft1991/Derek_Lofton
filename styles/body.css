@@ -13,7 +13,7 @@ body{
     position: absolute;
 }
 .headshot {
-    width: 110%;
+    width: 100%;
     padding-bottom: 10%;
 }
 .logo {
@@ -54,11 +54,25 @@ p {
 
 @media screen and (max-width: 414px) {
 
-    .name {
+    /* .name {
         text-align: center;
         font-family: 'PT Mono', monospace;
         font-size: 50px;
         padding: 2%;
+    } */
+    .name {
+        text-align: center;
+        color: white;
+        font-family: 'PT Mono', monospace;
+        font-size: 40px;
+        margin-left: 10%;
+        margin-top: 5%;
+        width: 100px;
+        position: absolute;
+    }
+    .headshot {
+        width: 100%;
+        padding-bottom: 10%;
     }
 
     h2{
