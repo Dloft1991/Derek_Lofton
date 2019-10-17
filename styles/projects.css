@@ -12,6 +12,7 @@
     #projects{
         width: 170px;
         height: 120px;
+        margin-left: 10%;
     }
     .section {
         padding-left: 1%;
@@ -23,6 +24,7 @@
     #projects{
         width: 200px;
         height: 150px;
+        margin-left: 25%;
     }
     .section {
         padding-left: 1%;
