@@ -3,6 +3,13 @@
     height: 200px;
     /* margin-left: 25%; */
 }
+#projects:hover{
+    transition: 2s;
+    width: 320px;
+    height: 220px;
+    margin-left: -3%;
+    /* margin-left: 25%; */
+}
 .section {
     padding-left: 5%;
 }
