@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -17,27 +17,22 @@
 <link href="https://fonts.googleapis.com/css?family=PT+Mono&display=swap" rel="stylesheet">
   <title>Derek Lofton</title>
 </head>
-<body>
+<style>
+  canvas {
+   border:1px solid #d3d3d3;
+   background-color: #f1f1f1;
+}
+ </style>
+<body 
+
+>
   <div>
     <h1>Play this game</h1>
+    <button onclick="startGame()">Start Drop</button>
   </div>
-  <section>
-
-  </section>
-  <style>
-    h1 {
-      text-align: center;
-    }
-    section {
-      width: 1000px;
-      height: 500px;
-      margin-left: 12%;
-      margin-right: 12%;
-
-      background-color: black;
-    }
-  </style>
+  <script src="JS/game.js"></script>
 </body>
+
 </html>
 
 <!--
