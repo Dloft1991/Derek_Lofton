@@ -41,12 +41,15 @@ function component(width, height, color, x, y, type) {
     this.newPos = function() {
         this.gravitySpeed += this.gravity;
         this.x += this.speedX;
-        this.y += this.speedY + this.gravitySpeed;        
+        this.y += this.speedY + this.gravitySpeed;       
     }
+
 }
 
 function updateGameArea() {
     myGameArea.clear();
     myGamePiece.newPos();
     myGamePiece.update();
+    myGamePiece.floatUp();
 }
+
