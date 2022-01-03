@@ -1,0 +1,188 @@
+body {
+    background-image: linear-gradient(to right, #98DFAF , white
+    );
+}
+html {
+    scroll-behavior: smooth;
+  }
+h1 {
+    
+    margin-left: 5%;
+    padding-top: 2%;
+    background-color: red;
+  
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #682D63, #414288);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+h2 {
+    padding-top: 10%;
+    font-size: 50px !important;
+    font-family: 'Montserrat', sans-serif;
+    background-color: red;
+  
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #414288, #682D63);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+h3 {
+    padding-top: 15%;
+    font-size: 60px !important;
+    font-family: 'Montserrat', sans-serif;
+    background-color: red;
+
+  
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #682D63, #414288);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+h4 {
+   
+    font-family: 'Montserrat', sans-serif; 
+    background-color: red;
+  
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #682D63, #414288);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+span {
+    font-size: 60px !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.row {
+    padding-top: 7%;
+}
+
+.col {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.my-picture {
+    height: 500px;
+    box-shadow: 5px 5px 3px 10px white;
+}
+
+.img-holder {
+    /* box-shadow: 5px 5px 3px 10px; */
+}
+
+button {
+    color: #414288;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #DEEFB7;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #DEEFB7;
+    border-radius: 2px;
+   
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif; 
+  
+    padding-left: 5%;
+    background-color: red;
+  
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #682D63, #414288);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+
+
+ul {
+    padding-right: 5%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.work {
+    width: 300px;
+    height: 160px;
+}
+
+.descripton {
+     color: #414288;
+     font-family: 'Montserrat', sans-serif;
+     padding-top: 10%;
+     padding-bottom: 10%;
+}
+
+.logos {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    height: 100px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.back-to-top {
+    text-decoration: none;
+    color: #414288;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
